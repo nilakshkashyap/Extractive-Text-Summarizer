@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text Summary</title>
+    <link
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet"/ href="/static/style.css">
+  </head>
+  <body>
+    <div class="full-container">
+      <div class="container-headings">
+        <h1 class="heading1">Text Summarization</h1>
+        <p class="heading2">Retrieve the best summary for the text</p>
+      </div>
+
+      <form action="/analyze" method="POST" class="form-container">
+        <textarea
+          name="rawtext"
+          class="form-control"
+          rows="25"
+          cols="150"
+          placeholder="Enter your raw text"
+        ></textarea>
+        <button class="submit-button" type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

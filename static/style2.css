@@ -1,0 +1,70 @@
+.container-headings {
+  text-align: center;
+  justify-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: rgb(128, 241, 120);
+  padding-top: 1px;
+  padding-bottom: 20px;
+  width: 100vw;
+  margin-left: -10px;
+  margin-top: -10px;
+}
+
+.heading1 {
+  font-size: 45px;
+}
+.heading2 {
+  font-size: 20px;
+}
+
+.head-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5px;
+  font-size: 30px;
+  color: rgb(47, 169, 38);
+}
+
+.head1,
+.head2 {
+  font-weight: bold;
+}
+
+.text-ans {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -10px;
+  font-size: 18px;
+}
+
+.org-text,
+.summ-text {
+  width: 45%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  overflow: auto;
+}
+
+.org-text {
+  margin-right: 10px;
+}
+
+.summ-text {
+  margin-left: 10px;
+}
+
+.words {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.org-words,
+.org-summ {
+  font-weight: bold;
+  padding: 10px 15px;
+  border: 1px solid black;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: rgb(73, 215, 63);
+}
